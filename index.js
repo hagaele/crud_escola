@@ -11,7 +11,8 @@ const alunosRouter = require('./routes/alunos');
 app.use('/alunos', alunosRouter);
 
 
-
+const professoresRouter = require('./routes/professores');
+app.use('/professores', professoresRouter);
 
 
 
